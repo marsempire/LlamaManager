@@ -4,7 +4,20 @@
 
 A **single-file Windows desktop tool** to manage your local GGUF models and launch them with [llama.cpp](https://github.com/ggml-org/llama.cpp)'s `llama-server` — no command line needed.
 
-> Current version: **v1.28.0** (download from the **Releases** section)
+> Current version: **v1.32.0** (download from the **Releases** section)
+
+---
+
+## Screenshots
+
+> Upload `shot-light.png` and `shot-dark.png` to the repo root (next to this README) to show the UI here.
+
+![Light theme — main window](docs/shot-en-1.png)
+![Light theme — main window](docs/shot-en-2.png)
+![Light theme — main window](docs/shot-en-3.png)
+![Light theme — main window](docs/shot-en-4.png)
+
+*More: `shot-light-preview.png` / `shot-light-log.png` (and their `-dark` counterparts) show the command-preview page and the log window.*
 
 ---
 
@@ -28,7 +41,7 @@ A **single-file Windows desktop tool** to manage your local GGUF models and laun
 
 ## Quick start
 
-1. Download `LlamaManager-1.28.0-win64.exe` from the Releases section (optionally verify it against the `.sha256` file in the same release).
+1. Download `LlamaManager-1.32.0-win64.exe` from the Releases section (optionally verify it against the `.sha256` file in the same release).
 2. Run it — a single file, no installation.
 3. The UI language follows your system on first launch; set the `llama-server.exe` path in **Settings**.
 4. Click **Add model** and pick your `.gguf` file (quantization / architecture / size are read automatically).
@@ -51,8 +64,8 @@ To move to another machine, just copy the whole `%APPDATA%\LlamaManager\` folder
 
 ```powershell
 # Windows PowerShell
-Get-FileHash .\LlamaManager-1.28.0-win64.exe -Algorithm SHA256
-# The result should match the value in LlamaManager-1.28.0-win64.exe.sha256
+Get-FileHash .\LlamaManager-1.32.0-win64.exe -Algorithm SHA256
+# The result should match the value in LlamaManager-1.32.0-win64.exe.sha256
 ```
 
 ## FAQ

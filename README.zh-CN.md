@@ -4,7 +4,21 @@
 
 一个 **Windows 单文件桌面小工具**，用于管理本地 GGUF 大模型，并通过 [llama.cpp](https://github.com/ggml-org/llama.cpp) 的 `llama-server` **一键启动**，无需手敲命令行。
 
-> 当前版本：**v1.28.0**（下载见本页右侧 **Releases**）
+> 当前版本：**v1.32.0**（下载见本页右侧 **Releases**）
+
+---
+
+## 界面预览
+
+> 请把 `shot-light.png` 和 `shot-dark.png` 上传到仓库根目录（与本 README 同级），主页即可显示界面截图。
+
+![浅色主题 — 主窗口](docs/shot-cn-1.png)
+![浅色主题 — 主窗口](docs/shot-cn-2.png)
+![浅色主题 — 主窗口](docs/shot-cn-3.png)
+![浅色主题 — 主窗口](docs/shot-cn-4.png)
+![浅色主题 — 主窗口](docs/shot-cn-4.png)
+
+*更多截图：`shot-light-preview.png` / `shot-light-log.png`（以及对应的 `-dark` 版本）分别是「启动命令预览页」和「服务日志窗口」。*
 
 ---
 
@@ -28,7 +42,7 @@
 
 ## 快速上手
 
-1. 下载本页 Release 中的 `LlamaManager-1.28.0-win64.exe`（可选：用同目录 `.sha256` 文件校验完整性）。
+1. 下载本页 Release 中的 `LlamaManager-1.32.0-win64.exe`（可选：用同目录 `.sha256` 文件校验完整性）。
 2. 双击运行（单文件，无需安装）。
 3. 首次打开会自动跟随系统语言；在「设置」里填好 `llama-server.exe` 路径。
 4. 点「添加模型」选择你的 `.gguf` 文件 → 自动读取量化 / 架构 / 大小。
@@ -51,8 +65,8 @@
 
 ```powershell
 # Windows PowerShell
-Get-FileHash .\LlamaManager-1.28.0-win64.exe -Algorithm SHA256
-# 结果应与 LlamaManager-1.28.0-win64.exe.sha256 中一致
+Get-FileHash .\LlamaManager-1.32.0-win64.exe -Algorithm SHA256
+# 结果应与 LlamaManager-1.32.0-win64.exe.sha256 中一致
 ```
 
 ## 常见问题
