@@ -10,14 +10,14 @@ A **single-file Windows desktop tool** to manage your local GGUF models and laun
 
 ## Screenshots
 
-> Upload `shot-light.png` and `shot-dark.png` to the repo root (next to this README) to show the UI here.
+
 
 ![Light theme — main window](docs/shot-en-1.png)
 ![Light theme — main window](docs/shot-en-2.png)
 ![Light theme — main window](docs/shot-en-3.png)
 ![Light theme — main window](docs/shot-en-4.png)
 
-*More: `shot-light-preview.png` / `shot-light-log.png` (and their `-dark` counterparts) show the command-preview page and the log window.*
+
 
 ---
 

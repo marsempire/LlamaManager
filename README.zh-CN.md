@@ -10,15 +10,15 @@
 
 ## 界面预览
 
-> 请把 `shot-light.png` 和 `shot-dark.png` 上传到仓库根目录（与本 README 同级），主页即可显示界面截图。
+
 
 ![浅色主题 — 主窗口](docs/shot-cn-1.png)
 ![浅色主题 — 主窗口](docs/shot-cn-2.png)
 ![浅色主题 — 主窗口](docs/shot-cn-3.png)
 ![浅色主题 — 主窗口](docs/shot-cn-4.png)
-![浅色主题 — 主窗口](docs/shot-cn-4.png)
+![浅色主题 — 主窗口](docs/shot-cn-5.png)
 
-*更多截图：`shot-light-preview.png` / `shot-light-log.png`（以及对应的 `-dark` 版本）分别是「启动命令预览页」和「服务日志窗口」。*
+
 
 ---
 
