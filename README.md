@@ -16,6 +16,7 @@ A **single-file Windows desktop tool** to manage your local GGUF models and laun
 ![Light theme — main window](docs/shot-en-2.png)
 ![Light theme — main window](docs/shot-en-3.png)
 ![Light theme — main window](docs/shot-en-4.png)
+![Light theme — main window](docs/shot-en-5.png)
 
 
 
