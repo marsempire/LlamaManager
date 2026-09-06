@@ -4,7 +4,7 @@
 
 一个 **Windows 单文件桌面小工具**，用于管理本地 GGUF 大模型，并通过 [llama.cpp](https://github.com/ggml-org/llama.cpp) 的 `llama-server` **一键启动**，无需手敲命令行。
 
-> 当前版本：**v1.32.0**（下载见本页右侧 **Releases**）
+> 当前版本：**v1.36.0**（下载见本页右侧 **Releases**）
 
 ---
 
@@ -42,7 +42,7 @@
 
 ## 快速上手
 
-1. 下载本页 Release 中的 `LlamaManager-1.32.0-win64.exe`（可选：用同目录 `.sha256` 文件校验完整性）。
+1. 下载本页 Release 中的 `LlamaManager-1.36.0-win64.exe`（可选：用同目录 `.sha256` 文件校验完整性）。
 2. 双击运行（单文件，无需安装）。
 3. 首次打开会自动跟随系统语言；在「设置」里填好 `llama-server.exe` 路径。
 4. 点「添加模型」选择你的 `.gguf` 文件 → 自动读取量化 / 架构 / 大小。
@@ -65,8 +65,8 @@
 
 ```powershell
 # Windows PowerShell
-Get-FileHash .\LlamaManager-1.32.0-win64.exe -Algorithm SHA256
-# 结果应与 LlamaManager-1.32.0-win64.exe.sha256 中一致
+Get-FileHash .\LlamaManager-1.36.0-win64.exe -Algorithm SHA256
+# 结果应与 LlamaManager-1.36.0-win64.exe.sha256 中一致
 ```
 
 ## 常见问题
